@@ -1,0 +1,28 @@
+const names = [
+  'Blue',
+  'Brooms',
+  'Botski',
+  'Buddy',
+  'Chug',
+  'Dom',
+  'Dug',
+  'Elf',
+  'Etcetatroll',
+  'Giacomo',
+  'Iros',
+  'Jiffy',
+  'Kid',
+  'Megs',
+  'Mutie',
+  'Rage',
+  'Ruther',
+  'Poe',
+  'Pops',
+  'Skull',
+  'Skye',
+  'Socks',
+  'Soda',
+  'Tooby',
+  'Troll'
+]
+export default names
