@@ -13,6 +13,7 @@ const names = [
   'Jiffy',
   'Kid',
   'Megs',
+  'Mole',
   'Mutie',
   'Rage',
   'Ruther',
@@ -22,6 +23,7 @@ const names = [
   'Skye',
   'Socks',
   'Soda',
+  'Sowo',
   'Tooby',
   'Troll'
 ]

@@ -26,7 +26,6 @@ const Home = () => {
         <h3>Generate Text</h3>
         <DrumfillGenerator />
       </div>
-      <NameDisplay />
       <style jsx>{`
         :global(body) {
           background-color: #333;
