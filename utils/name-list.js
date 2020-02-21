@@ -10,7 +10,6 @@ const names = [
   'Etcetatroll',
   'Giacomo',
   'Iros',
-  'Jiffy',
   'Kid',
   'Megs',
   'Mole',
