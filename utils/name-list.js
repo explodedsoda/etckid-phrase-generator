@@ -1,4 +1,5 @@
 const names = [
+  'Allegra',
   'Blue',
   'Brooms',
   'Botski',
