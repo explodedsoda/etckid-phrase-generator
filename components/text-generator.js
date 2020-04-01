@@ -8,7 +8,6 @@ const fillTypes = [
   '!drumfill',
   '!drumloop',
   '!drums',
-  '!melody',
   '!title',
   '!titlebadly',
   '!venue',
@@ -92,14 +91,15 @@ const DrumfillGenerator = () => {
     } while (fillCount < validatedDrumfillCount && killCount < 2000)
     return setFills(f)
   }
+
   const getFiller = () => {
-    let filler = fillerWords[randNumber(0, 13)] + ' '
-    let word2 = randNumber(0, 1) ? fillerWords[randNumber(0, 13)] : ''
+    let filler = fillerWords[randNumber(0, 13)]
+    let word2 = randNumber(0, 1) ? ' ' + fillerWords[randNumber(0, 13)] : ''
     if (filler.trim().length && word2.trim().length && word2.trim() === filler.trim()) {
       do {
         word2 = fillerWords[randNumber(0, 13)]
       } while (word2.trim() === filler.trim())
-      filler += word2
+      filler += ' ' + word2
     }
     if (filler.length) count += 1
     return filler
