@@ -22,6 +22,11 @@ const Home = () => {
         <script async src='https://www.googletagmanager.com/gtag/js?id=UA-151665371-1'></script>
       </Head>
       <h1 className='title'>ETCerati Request Generator</h1>
+      <div className='marginTop'>
+        <a href='https://twitch.tv/etckid' target='_blank' rel='noopener noreferrer'>
+          twitch.tv/etckid
+        </a>
+      </div>
       <div>
         <h3>Generate Text</h3>
         <DrumfillGenerator />
@@ -54,6 +59,10 @@ const Home = () => {
         :global(input) {
           margin-left: 0.5rem;
         }
+        :global(a) {
+          color: #9146FF;
+          font-weight: 600;
+        }
         .title {
           margin: 0;
           width: 100%;
@@ -61,6 +70,9 @@ const Home = () => {
         }
         .title {
           text-align: center;
+        }
+        .marginTop {
+          margin-top: 0.5rem;
         }
       `}
       </style>
