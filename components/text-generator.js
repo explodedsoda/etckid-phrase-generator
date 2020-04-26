@@ -10,6 +10,7 @@ const fillTypes = [
   '!drums',
   '!title',
   '!titlebadly',
+  '!tour',
   '!venue',
   '!venuebadly'
 ]
