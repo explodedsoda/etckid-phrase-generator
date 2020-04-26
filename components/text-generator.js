@@ -20,20 +20,19 @@ const wordTypeEnum = {
   2: getNoun
 }
 const fillerWords = {
-  0: 'A',
-  1: 'After',
-  2: 'And',
-  3: 'Before',
-  4: 'For',
-  5: 'In',
-  6: 'Is',
-  7: 'Of',
-  8: 'On',
-  9: 'Over',
-  10: 'The',
-  11: 'This',
-  12: 'That',
-  13: 'Under'
+  0: 'After',
+  1: 'And',
+  2: 'Before',
+  3: 'For',
+  4: 'In',
+  5: 'Is',
+  6: 'Of',
+  7: 'On',
+  8: 'Over',
+  9: 'The',
+  10: 'This',
+  11: 'That',
+  12: 'Under'
 }
 let count = 0
 const DrumfillGenerator = () => {
@@ -94,11 +93,11 @@ const DrumfillGenerator = () => {
   }
 
   const getFiller = () => {
-    let filler = fillerWords[randNumber(0, 13)]
-    let word2 = randNumber(0, 1) ? ' ' + fillerWords[randNumber(0, 13)] : ''
+    let filler = fillerWords[randNumber(0, 12)]
+    let word2 = randNumber(0, 1) ? ' ' + fillerWords[randNumber(0, 12)] : ''
     if (filler.trim().length && word2.trim().length && word2.trim() === filler.trim()) {
       do {
-        word2 = fillerWords[randNumber(0, 13)]
+        word2 = fillerWords[randNumber(0, 12)]
       } while (word2.trim() === filler.trim())
       filler += ' ' + word2
     }
