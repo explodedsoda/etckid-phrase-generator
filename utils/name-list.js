@@ -1,5 +1,6 @@
 const names = [
   'Allegra',
+  'Bierro',
   'Blue',
   'Brooms',
   'Botski',
