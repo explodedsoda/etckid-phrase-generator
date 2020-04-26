@@ -1,6 +1,6 @@
 {
   "name": "etceterati-generator",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "private": true,
   "scripts": {
     "build": "next build",
@@ -10,7 +10,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "~9.2.2",
+    "next": "~9.3.5",
     "react": "~16.13.0",
     "react-copy-to-clipboard": "~5.0.2",
     "react-dom": "~16.13.0"
@@ -19,7 +19,7 @@
     "eslint": "~6.8.0",
     "eslint-config-standard": "~14.1.0",
     "eslint-plugin-import": "~2.20.1",
-    "eslint-plugin-node": "~11.0.0",
+    "eslint-plugin-node": "~11.1.0",
     "eslint-plugin-promise": "~4.2.1",
     "eslint-plugin-react": "~7.19.0",
     "eslint-plugin-standard": "~4.0.1"
