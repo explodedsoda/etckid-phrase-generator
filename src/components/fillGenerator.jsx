@@ -138,35 +138,27 @@ const DrumfillGenerator = () => {
   return (
     <div>
       <form className="flexColumn textLeft" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="drumfillCountInput">
-            Number of Generations
-            <input type="number" value={drumfillCount} name="drumfillCountInput" onChange={handleFillCountChange} />
-          </label>
-        </div>
-        <div>
-          <label htmlFor="drumfillLengthInput">
-            Max Fill Length
-            <input type="number" value={drumfillLength} name="drumfillLengthInput" onChange={handleFillLengthChange} />
-          </label>
-        </div>
-        <div>
-          <label htmlFor="customWordInput">
-            Use Custom Word?
-            <input type="text" value={customWord} name="customWordInput" onChange={handleSetCustomWord} />
-          </label>
-        </div>
-        <div>
-          <label htmlFor="useRegularList">
-            Use Names?
-            <input
-              type="checkbox"
-              name="useRegularList"
-              onChange={handleRegularListChange}
-              checked={shouldUseRegularList}
-            />
-          </label>
-        </div>
+        <label className="flexRow" htmlFor="drumfillCountInput">
+          <div>Number of Generations</div>
+          <input type="number" value={drumfillCount} name="drumfillCountInput" onChange={handleFillCountChange} />
+        </label>
+        <label className="flexRow" htmlFor="drumfillLengthInput">
+          <div>Max Fill Length</div>
+          <input type="number" value={drumfillLength} name="drumfillLengthInput" onChange={handleFillLengthChange} />
+        </label>
+        <label className="flexRow" htmlFor="customWordInput">
+          <div>Use Custom Word?</div>
+          <input type="text" value={customWord} name="customWordInput" onChange={handleSetCustomWord} />
+        </label>
+        <label className="flexRow" htmlFor="useRegularList">
+          Use Names?
+          <input
+            type="checkbox"
+            name="useRegularList"
+            onChange={handleRegularListChange}
+            checked={shouldUseRegularList}
+          />
+        </label>
         <button type="submit">Generate</button>
       </form>
       <h3>Generated Text</h3>

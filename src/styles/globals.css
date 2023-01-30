@@ -36,23 +36,23 @@ a {
   margin: 0;
   width: 100%;
   line-height: 1.15;
-}
-.title {
   text-align: center;
 }
 .marginTop {
   margin-top: 0.5rem;
 }
-
 .textLeft {
   text-align: left;
 }
-
 .flexColumn {
   display: flex;
   flex-direction: column;
 }
-
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 * {
   box-sizing: border-box;
 }
