@@ -1,0 +1,58 @@
+html,
+body {
+  background-color: #333;
+  color: #ddd;
+  font-family: Open Sans, Avenir Next, Avenir, Helvetica, sans-serif;
+  height: 100vh;
+  margin: 2rem;
+  text-align: center;
+}
+
+::selection {
+  background: #9146ff;
+  color: #000;
+}
+::-moz-selection {
+  background: #9146ff;
+  color: #000;
+}
+
+button {
+  background-color: #333;
+  border: 1px solid #ddd;
+  color: #ddd;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+input {
+  margin-left: 0.5rem;
+}
+a {
+  color: #9146ff;
+  font-weight: 600;
+}
+.title {
+  margin: 0;
+  width: 100%;
+  line-height: 1.15;
+}
+.title {
+  text-align: center;
+}
+.marginTop {
+  margin-top: 0.5rem;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
